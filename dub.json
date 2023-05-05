@@ -1,0 +1,21 @@
+{
+	"name": "uim-cdm",
+	"authors": ["UI Manufaktur UG", "Ozan NUrettin Süel"],
+	"copyright": "Copyright © 2017 - 2020, UI Manufaktur UG",
+	"description": "Model for MS Common Data Model",
+	"license": "Apache-2.0",
+	"targetType": "library",
+	"dependencies": {
+		"vibe-d": "~>0.9.5"
+	},
+	"sourcePaths": [
+		"../uim-core",
+		"../uim-oop",
+		"./"
+	],
+	"importPaths": [
+		"../uim-core",
+		"../uim-oop",
+		"./"
+	]
+}
