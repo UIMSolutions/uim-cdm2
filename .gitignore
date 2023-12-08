@@ -1,7 +1,7 @@
 .dub
 docs.json
 __dummy.html
-docs/
+
 /uim-cdm
 uim-cdm.so
 uim-cdm.dylib

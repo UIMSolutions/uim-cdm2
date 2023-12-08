@@ -42,7 +42,7 @@ class DCDMCorpusDefinition {
         private IDictionary<CdmObjectDefinition, List<CdmE2ERelationship>> OutgoingRelationships;
         private IDictionary<CdmObjectDefinition, List<CdmE2ERelationship>> IncomingRelationships;*/
 
-        mixin(TProperty!("string[string]", "resEntMap"));
+        mixin(TProperty!("STRINGAA", "resEntMap"));
 
         private SpinLock spinLock;
         private Dictionary<string, CdmTypeAttributeDefinition> KnownArtifactAttributes;
